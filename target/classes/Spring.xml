@@ -8,7 +8,9 @@
 	http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<bean id="triangle" class="com.spring.framework.dt.Triangle"
-		lazy-init="true"></bean>
+		lazy-init="true">
+		<property name="msg" value="Hello Triangle"/>
+		</bean>
 	<bean id="shape" class="com.spring.framework.dt.Shape"
 		lazy-init="true"
 		autowire="byName"></bean>
