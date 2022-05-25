@@ -8,7 +8,7 @@
 	<name>SpringFramework</name>
 	<description>SpringFramework</description>
 	<properties>
-		<spring.version>5.1.6.RELEASE</spring.version>
+		<spring.version>5.2.22.RELEASE</spring.version>
 		<jdk.version>1.8</jdk.version>
 	</properties>
 
